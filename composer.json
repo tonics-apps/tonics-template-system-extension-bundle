@@ -1,0 +1,21 @@
+{
+    "name": "devsrealm/tonics-template-system-extension-bundle",
+    "description": "Custom Bundle Extension (Custom Tokenizers) for Tonics Template System",
+    "type": "library",
+    "require": {
+        "devsrealm/tonics-template-system": "^1.0",
+        "ext-mbstring": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Devsrealm\\TonicsTemplateSystemExtensionBundle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Olayemi Faruq",
+            "email": "olayemi@tonics.app"
+        }
+    ]
+}
